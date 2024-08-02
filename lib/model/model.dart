@@ -16,7 +16,7 @@ class Note {
       'id': id,
       'title': title,
       'content': content,
-      'type': type.toString().split('.').last, // Store as string
+      'type': type.toString().split('.').last,
     };
   }
 
